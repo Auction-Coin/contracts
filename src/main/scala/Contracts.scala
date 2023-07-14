@@ -12,5 +12,11 @@ object Contracts {
   //    - sends the coins to the main contract (either failed auctions or bought back coins)
 
 
+  val main =
+    """{
+      |  sigmaProp(true)
+      |}""".stripMargin
+
+
 
 }
